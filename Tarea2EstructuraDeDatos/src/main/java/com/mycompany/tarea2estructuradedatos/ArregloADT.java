@@ -10,9 +10,9 @@ public class ArregloADT {
 
     public ArregloADT(int tamanio) {
         this.tamanio = tamanio;
-        this.longitud = longitud;
+        //this.longitud = longitud;
         dato = new Object[tamanio];
-        this.elemento = elemento;
+        //this.elemento = elemento;
     }
 
     public int getLongitud() {
